@@ -1,0 +1,92 @@
+#entire-OderPage {
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+
+  background: #ddd6f3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #faaca8,
+    #ddd6f3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #faaca8, #ddd6f3);
+}
+
+#entire-OderPage .main-grid {
+  display: grid;
+  grid-template-areas:
+    "header1 intro header2"
+    "a contents b"
+    "c footer d";
+
+  gap: 10px;
+  grid-template-columns: 10px 1fr 10px;
+}
+
+.main-grid .intro {
+  grid-area: intro;
+  display: flex;
+  align-items: center;
+  font-family: Wemakeprice-Regular;
+  font-size: 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+
+.main-grid .intro .title {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+}
+
+.main-grid .intro .category {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-family: Wemakeprice-Regular;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.main-grid .contents {
+  grid-area: contents;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contents .infoBox {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.infoBox .buttonLayout {
+  margin-top: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.buttonLayout .btn-font {
+  font-size: 30px;
+  font-family: Wemakeprice-Regular;
+  padding: 5px;
+}
+
+.buttonLayout .btn {
+  width: 200px;
+  margin: 10px;
+}
+
+.main-grid .footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#entire-OderPage .tableLow {
+  background-color: #d1d1d177;
+}

@@ -1,0 +1,12 @@
+#entire-MerchandiseList {
+  height: 100%;
+}
+
+.box::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.masonry-img {
+  min-width: 100%;
+  max-width: 100%;
+}

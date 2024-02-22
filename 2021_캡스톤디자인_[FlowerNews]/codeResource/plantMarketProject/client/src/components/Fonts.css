@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Wemakeprice-Bold";
+  src: url("../fonts/Wemakeprice-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Wemakeprice-Regular";
+  src: url("../fonts/Wemakeprice-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Wemakeprice-SemiBold";
+  src: url("../fonts/Wemakeprice-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cinzel-Bold";
+  src: url("../fonts/Cinzel-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cinzel-Regular";
+  src: url("../fonts/Cinzel-Regular.ttf") format("truetype");
+}

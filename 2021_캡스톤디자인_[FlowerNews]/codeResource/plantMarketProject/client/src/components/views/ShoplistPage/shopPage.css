@@ -1,0 +1,56 @@
+#entire-ShoplistPage {
+}
+
+#entire-ShoplistPage .title {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: Wemakeprice-Regular;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.gridShoplist .shopCard {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  cursor: pointer;
+}
+
+#entire-ShoplistPage .div1 {
+  display: flex;
+  justify-content: center;
+}
+
+.div1 .title-sub1 {
+  font-family: Wemakeprice-Regular;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#entire-ShoplistPage .div2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.div2 .title-sub2 {
+  font-family: Wemakeprice-Regular;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#entire-ShoplistPage .gridShoplist {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#entire-ShoplistPage .alignList {
+  display: flex;
+  justify-content: center;
+}

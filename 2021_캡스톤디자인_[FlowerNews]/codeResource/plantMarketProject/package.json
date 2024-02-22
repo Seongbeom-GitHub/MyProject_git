@@ -1,0 +1,45 @@
+{
+  "name": "react-boiler-plate",
+  "version": "1.0.0",
+  "description": "react boiler plate",
+  "main": "index.js",
+  "engine": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "backend": "nodemon server/index.js",
+    "frontend": "npm run start --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
+  },
+  "author": "John ahn",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material/image-list": "^13.0.0",
+    "@ngbmodule/material-carousel": "^0.7.1",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.20",
+    "qs": "^6.7.0",
+    "react-redux": "^5.0.7",
+    "react-responsive": "^9.0.0-beta.4",
+    "react-sx": "^1.0.2",
+    "saslprep": "^1.0.3",
+    "supports-color": "^7.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.1"
+  }
+}

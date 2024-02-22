@@ -1,0 +1,40 @@
+#entire-ManagementPage {
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+#entire-ManagementPage .main-grid {
+  display: grid;
+  grid-template-areas:
+    "header1 intro header2"
+    "a contents b"
+    "c footer d";
+
+  gap: 10px;
+  grid-template-columns: 10px 1fr 10px;
+}
+
+#entire-ManagementPage .intro2 {
+  grid-area: intro;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+  font-size: 50px;
+  font-family: Wemakeprice-Regular;
+}
+
+#entire-ManagementPage .contents {
+  grid-area: contents;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: bisque; */
+}
+
+#entire-ManagementPage .plantsCard {
+  width: 300px;
+  margin: 10px;
+}
